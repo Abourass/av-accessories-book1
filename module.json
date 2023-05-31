@@ -2,10 +2,14 @@
     "name": "av-accessories-book1",
     "title": "Abomination Vault Accessories, Book 1",
     "description": "Additional tiles, tokens, handouts and animations for Abomination Vaults Book1",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "author": "Mark Pearce",
-    "minimumCoreVersion": "0.8.6",
-    "compatibleCoreVersion": "9",
+    "minimumCoreVersion": "10",
+    "compatibility": {
+        "minimum": 10,
+        "maximum": 10,
+        "verified": "10.291"
+    },
     "packs": [
         {
             "name": "av-accessories-maps",
@@ -15,6 +19,10 @@
             "type": "JournalEntry"
         }
     ],
-    "manifest": "https://github.com/MarkPearce/av-accessories-book1/releases/latest/download/module.json",
-    "download": "https://github.com/MarkPearce/av-accessories-book1/releases/download/1.0.1/av-accessories-book1.zip"
+    "url": "https://github.com/Abourass/av-accessories-book1",
+    "readme": "https://raw.githubusercontent.com/Abourass/av-accessories-book1/main/README.md",
+    "bugs": "https://github.com/MarkPearce/av-accessories-book1/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc",
+    "allowBugReporter": true,
+    "manifest": "https://github.com/Abourass/av-accessories-book1/releases/latest/download/module.json",
+    "download": "https://github.com/Abourass/av-accessories-book1/releases/download/1.0.2/av-accessories-book1.zip"
   }
