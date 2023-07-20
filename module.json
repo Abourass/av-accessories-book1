@@ -2,23 +2,43 @@
     "name": "av-accessories-book1",
     "title": "Abomination Vault Accessories, Book 1",
     "description": "Additional tiles, tokens, handouts and animations for Abomination Vaults Book1",
-    "version": "1.0.2",
+    "version": "1.1.0",
     "author": "Mark Pearce",
-    "minimumCoreVersion": "10",
+    "authors": [
+        {
+          "name": "Mark Pearce",
+          "url": "https://github.com/MarkPearce/av-accessories-book1"
+        }
+    ],
+    "minimumCoreVersion": "0.8.0",
+    "compatibleCoreVersion": "11",
+    "manifestPlusVersion": "1.2.0",
     "compatibility": {
-        "minimum": 10,
-        "maximum": 10,
-        "verified": "10.291"
+        "minimum": "0.8.0",
+        "verified": "11"
     },
     "packs": [
         {
             "name": "av-accessories-maps",
-            "label": "AV Accessories Maps",
+            "label": "Abomination Vault Accessories",
             "path": "./packs/av-accessories-book1-journal.db",
             "entity": "JournalEntry",
-            "type": "JournalEntry"
+            "type": "JournalEntry",
+            "system": "pf2e",
+            "private": true,
+            "flags": {}
         }
     ],
+    "packFolders": [
+        {
+            "name": "Abomination Vault Accessories",
+            "sorting": "a",
+            "color": "#6f1c17",
+            "packs": [
+              "JournalEntry"
+            ]
+        }
+      ],
     "url": "https://github.com/Abourass/av-accessories-book1",
     "readme": "https://raw.githubusercontent.com/Abourass/av-accessories-book1/main/README.md",
     "bugs": "https://github.com/MarkPearce/av-accessories-book1/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc",
